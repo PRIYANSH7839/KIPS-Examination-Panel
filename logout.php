@@ -29,7 +29,7 @@ session_destroy();
 		session_start();
 		$_SESSION['status'] = "You have been logged out!";
 		$_SESSION['status_code'] = "success";
-		header("location: login.php");
+		header("location: index.php");
 	?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js "></script>
